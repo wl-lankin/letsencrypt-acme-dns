@@ -1,6 +1,7 @@
 ## 1. Install new VM
 - Debian (512MB to 1GB RAM / 1 CPU / 2GB Disk - 512MB Swap)
 - Bind9 `# apt-get install -y bind9`
+- make IP of VM static and notice
 
 ### Configure Bind9:
 
