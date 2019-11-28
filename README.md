@@ -1,3 +1,9 @@
+Sad about updating your TXT-Record every 3 Month? Sad about complicated installation?  
+**Let's start changing this!!!**  
+  
+ ##### Some words why doing it this way:
+ Sure you could install the Bind-Server local on your Letsencrypt-VM. But on a structured server instance you should avoid running the DNS-Server on the same machine as your webserver.
+
 ## 1. Install new VM
 - Debian (512MB to 1GB RAM / 1 CPU / 2GB Disk - 512MB Swap)
 - Bind9 `# apt-get install -y bind9`
