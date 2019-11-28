@@ -30,7 +30,7 @@ zone "_acme-challenge.DOMAIN2.de" {
         
 };
 ```
-You have to add all domains you want to auto-update the certs.
+You have to add all domains you want to auto-update the certificates.
 
 ## 2. Edit VM with Letsencrypt installation
 
