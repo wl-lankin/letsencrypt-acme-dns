@@ -47,7 +47,7 @@ You have to add all domains you want to auto-update the certificates.
 - add `35 3 1 * * /bin/bash /opt/letsencrypt/auto-renew.sh >/dev/null 2>&1`
 
 ## 3. Edit Proxmox Server (optional)
-If you want to run your new installed VM only on certificate-update get through the following steps.  
+If you want to run your new installed VM only on certificate-update get through the following steps:  
   
 - `# mkdir /opt/cronvm`
 - copy the 1 file from repository (scripts/proxmox) to /opt/cronvm
