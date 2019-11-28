@@ -46,7 +46,7 @@ You have to add all domains you want to auto-update the certificates.
 - `# crontab -e`
 - add `35 3 1 * * /bin/bash /opt/letsencrypt/auto-renew.sh >/dev/null 2>&1`
 
-## 3. Edit Proxmox Server
+## 3. Edit Proxmox Server (optional)
 
 - `# mkdir /opt/cronvm`
 - copy the 1 file from repository (scripts/proxmox) to /opt/cronvm
