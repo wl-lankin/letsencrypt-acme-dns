@@ -2,7 +2,7 @@ Sad about updating your TXT-Record every 3 month? Sad about complicated installa
 **Let's start changing this!!!**  
   
  ##### Some words why doing it this way:
-I installed letsencrypt on my webserver-vm but don't want to run a DNS server on the same machine. So i decided to split it up. Sure you can install bind also local or combined with letsencrypt on a single vm.
+I installed letsencrypt on my webserver-vm but don't want to run a DNS server on the same machine. So i decided to split it up. Sure you can install bind also local or combined with letsencrypt on a single vm and so on.
 
 ## 1. Install new VM
 - Debian (512MB to 1GB RAM / 1 CPU / 2GB Disk - 512MB Swap)
