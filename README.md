@@ -60,7 +60,7 @@ If you want to run your new installed VM only on certificate-update get through 
 - copy the 1 file from repository (scripts/proxmox) to /opt/cronvm
 - `# chown +x /opt/cronvm/controlvm.sh`
 - `# crontab -e`
-- add and edit [XXX] to the ID of your in step 1 installed Bind9-VM
+- add and edit [XXX] to the ID of your in step 1 installed VM
 ```
 30 3 1 * * bash -x /opt/cronvm/controlvm.sh start XXX >/dev/null 2>&1
 59 3 1 * * bash -x /opt/cronvm/controlvm.sh shutdown XXX >/dev/null 2>&1
