@@ -1,4 +1,4 @@
-Sad about manually updating your TXT-Records every 3 month?  
+Sad about manually updating your TXT-Records every 3 months?  
 Sad about complicated installations?  
 **Let's start changing this!!!**  
   
